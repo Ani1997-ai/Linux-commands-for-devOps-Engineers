@@ -21,7 +21,7 @@ Kernel (Brain of Linux)
  ↓
 Hardware
 
-•	Kernel → Talks to hardware
+    •	Kernel → Talks to hardware
 	•	Shell → Where we type commands
 	•	Terminal → Black screen
 
