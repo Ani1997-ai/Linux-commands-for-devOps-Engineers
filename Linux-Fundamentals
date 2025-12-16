@@ -1,17 +1,15 @@
-🐧 Linux Fundamentals
+Linux Fundamentals
 
-1️⃣ What is Linux?
+1. What is Linux?
 
 Linux is an Operating System (like Windows) but:
 	•	Free & Open Source
 	•	Very fast & secure
 	•	Used on servers, cloud, Docker, Kubernetes
 
-📌 90% of DevOps tools run on Linux
+90% of DevOps tools run on Linux
 
-⸻
-
-2️⃣ Linux Architecture (Easy)
+2. Linux Architecture (Easy)
 
 User
  ↓
@@ -25,9 +23,7 @@ Hardware
 	•	Shell → Where we type commands
 	•	Terminal → Black screen
 
-⸻
-
-3️⃣ Linux File System Structure
+3. Linux File System Structure
 
 Everything starts from / (root)
 
