@@ -2,7 +2,7 @@
 
 Essential Linux commands cheat sheet for DevOps Engineers
 
-## 📁 1. File and Directory Management
+## 1. File and Directory Management
 
 ```bash
 ls -l           # List files in long format
@@ -16,7 +16,7 @@ mv old new      # Move or rename file
 find / -name "file.txt"  # Search for a file
 ```
 
-## 🔐 2. Permissions and Ownership
+## 2. Permissions and Ownership
 
 ```bash
 chmod 755 script.sh         # Change permissions
@@ -24,7 +24,7 @@ chown user:group file       # Change ownership
 ls -l                       # Check permissions
 ```
 
-## 👤 3. User and Group Management
+## 3. User and Group Management
 
 ```bash
 useradd newuser             # Add new user
@@ -34,7 +34,7 @@ groupadd devops             # Create new group
 id user                     # Check groups of a user
 ```
 
-## ⚙️ 4. Process and Service Management
+## 4. Process and Service Management
 
 ```bash
 top                        # Monitor system resources
@@ -46,7 +46,7 @@ systemctl start nginx      # Start a service
 systemctl stop nginx       # Stop a service
 ```
 
-## 🌐 5. Networking
+## 5. Networking
 
 ```bash
 ip a                       # Show IP addresses
@@ -58,7 +58,7 @@ netstat -tulnp             # List listening ports and services
 ss -tulwn                  # Faster netstat alternative
 ```
 
-## 💾 6. Disk and File System
+## 6. Disk and File System
 
 ```bash
 df -h                      # Disk usage in human readable
@@ -68,7 +68,7 @@ umount /mnt                # Unmount a device
 lsblk                      # List block devices
 ```
 
-## 📦 7. Archiving and Compression
+## 7. Archiving and Compression
 
 ```bash
 tar -czvf archive.tar.gz dir/   # Create compressed archive
@@ -77,7 +77,7 @@ zip -r file.zip folder/         # Zip folder
 unzip file.zip                  # Unzip file
 ```
 
-## 📥 8. Package Management
+## 8. Package Management
 
 ```bash
 apt update && apt upgrade     # Update system (Debian/Ubuntu)
@@ -86,14 +86,14 @@ apt install nginx             # Install package
 apt remove nginx              # Remove package
 ```
 
-## ⏰ 9. Crontab (Scheduling Jobs)
+## 9. Crontab (Scheduling Jobs)
 
 ```bash
 crontab -e                    # Edit current user's crontab
 crontab -l                    # List cron jobs
 ```
 
-## 🔑 10. SSH and Remote Access
+## 10. SSH and Remote Access
 
 ```bash
 ssh user@ip_address           # Connect to remote machine
@@ -102,7 +102,7 @@ ssh-keygen                    # Generate SSH key
 ssh-copy-id user@ip           # Copy public key to remote
 ```
 
-## 📊 11. Logs and Monitoring
+## 11. Logs and Monitoring
 
 ```bash
 tail -f /var/log/syslog       # Monitor log file
@@ -111,7 +111,7 @@ uptime                        # Show system uptime
 dstat                         # Real-time resource stats
 ```
 
-## 🛠 12. System Info and Debugging
+## 12. System Info and Debugging
 
 ```bash
 uname -a                      # Kernel and OS info
@@ -120,7 +120,7 @@ free -h                       # Show memory usage
 strace ./script.sh            # Debug system calls
 ```
 
-## 💡 Tip
+## Tips
 
 Practice these commands in VirtualBox / VMware, AWS EC2, Azure VM, GCP Compute Engine.
 
