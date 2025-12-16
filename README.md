@@ -19,17 +19,17 @@ find / -name "file.txt"  # Search for a file
 ## 2. Permissions and Ownership
 
 ```bash
-chmod 755 script.sh         # Change permissions
-chown user:group file       # Change ownership
-ls -l                       # Check permissions
+chmod 755 script.sh        # Change permissions
+chown user:group file      # Change ownership
+ls -l                      # Check permissions
 ```
 
 ## 3. User and Group Management
 
 ```bash
-useradd newuser             # Add new user
-passwd newuser              # Set password for user
-usermod -aG group user      # Add user to group
+useradd newuser            # Add new user
+passwd newuser             # Set password for user
+usermod -aG group user     # Add user to group
 groupadd devops             # Create new group
 id user                     # Check groups of a user
 ```
